@@ -1,0 +1,21 @@
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+  padding-top: 35px;
+}
+.card{
+  width: 150px;
+  height: 220px;
+  border-radius: 5px;
+  outline: 2px solid rgb(199, 196, 15);
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: rgb(54, 54, 54);
+}
+.card p{
+  text-align: center;
+}

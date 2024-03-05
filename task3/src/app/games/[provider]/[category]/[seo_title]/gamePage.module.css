@@ -1,0 +1,25 @@
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.left{
+    width: 45%;
+}
+.left img{
+    border-radius: 45px;
+    outline: 3px solid rgb(199, 196, 15);
+}
+.right{
+    width: 45%;
+}
+.right span{
+    color: rgb(199, 196, 15);
+    font-weight: bolder;
+}
+.categories{
+    list-style: none;
+    display: flex;
+    color: tomato;
+}
